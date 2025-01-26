@@ -1,0 +1,79 @@
+/************ fonts css start ************/
+@font-face {
+  font-family: Centra;
+  src: url('./assets/fonts/CentraNo2-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assets/fonts/CentraNo2-Book.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Centra;
+  src: url('./assets/fonts/CentraNo2-Medium.ttf');
+  font-weight: 400;
+}
+/************ fonts css end ************/
+
+/************ Default CSS start ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+.container {
+  max-width: 100%;
+}
+body {
+  font-weight: 400;
+  font-family: 'Centra', sans-serif !important;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #fff;
+  color: #000;  
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+label {
+  font-weight: bold;
+}
+/************ Default CSS end ************/
+
+header {
+  background-color: #c80000;
+  color: #fff;
+}
+
+.mantine-Grid-inner {
+  margin: 0;
+}
+
+.droppable-area {
+  min-height: 400px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.properties-panel {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.preview-mode {
+  width: 100%;
+}
